@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('priceQuote', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -11,16 +11,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.UUIDV4,
 			allowNull: false,
 			field: 'GUID'
-		},
-		type: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE'
-		},
-		parentId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PARENT_ID'
 		},
 		code: {
 			type: DataTypes.STRING,
@@ -32,32 +22,42 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		type2: {
+		projectId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'PROJECT_ID'
+		},
+		version: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'TYPE2'
+			field: 'VERSION'
 		},
-		error: {
+		totalWithoutTaxes: {
+			type: "MONEY",
+			allowNull: true,
+			field: 'TOTAL_WITHOUT_TAXES'
+		},
+		taxes: {
+			type: "MONEY",
+			allowNull: true,
+			field: 'TAXES'
+		},
+		total: {
+			type: "MONEY",
+			allowNull: true,
+			field: 'TOTAL'
+		},
+		createBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'CREATE_BY'
 		},
-		packageTypeGroupId: {
-			type: DataTypes.INTEGER,
+		createDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
-		},
-		moduleId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'CREATE_DATE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'PRICE_QUOTE'
 	});
 };

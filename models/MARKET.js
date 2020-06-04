@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('market', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,6 +12,11 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
+		productId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'PRODUCT_ID'
+		},
 		code: {
 			type: DataTypes.STRING,
 			allowNull: true,
@@ -21,8 +26,14 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'NAME'
+		},
+		ispo: {
+			type: DataTypes.BOOLEAN,
+			allowNull: false,
+			defaultValue: '0',
+			field: 'ISPO'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'MARKET'
 	});
 };

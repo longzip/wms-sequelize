@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('project', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,15 +12,10 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		type: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE'
-		},
-		parentId: {
+		projectParentId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'PARENT_ID'
+			field: 'PROJECT_PARENT_ID'
 		},
 		code: {
 			type: DataTypes.STRING,
@@ -32,32 +27,27 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		type2: {
+		description: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'TYPE2'
+			field: 'DESCRIPTION'
 		},
-		error: {
+		customerId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'CUSTOMER_ID'
 		},
-		packageTypeGroupId: {
-			type: DataTypes.INTEGER,
+		createBy: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
+			field: 'CREATE_BY'
 		},
-		moduleId: {
-			type: DataTypes.INTEGER,
+		createDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'CREATE_DATE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'PROJECT'
 	});
 };

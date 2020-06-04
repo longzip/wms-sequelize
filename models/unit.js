@@ -1,32 +1,28 @@
-'use strict';
-module.exports = (sequelize, DataTypes) => {
-  const Unit = sequelize.define('Unit', {
-    id: {
-      allowNull: false,
-      primaryKey: true,
-      type: DataTypes.UUID,
-      defaultValue: DataTypes.UUIDV4,
-    },
-    code: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-    },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    createdAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    },
-    updatedAt: {
-      allowNull: false,
-      type: DataTypes.DATE
-    }
-  }, {});
-  Unit.associate = function (models) {
-    // associations can be defined here
-  };
-  return Unit;
+/* jshint indent: 1 */
+
+module.exports = function(sequelize, DataTypes) {
+	return sequelize.define('unit', {
+		id: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			field: 'ID'
+		},
+		guid: {
+			type: DataTypes.UUIDV4,
+			allowNull: false,
+			field: 'GUID'
+		},
+		code: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'CODE'
+		},
+		name: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'NAME'
+		}
+	}, {
+		tableName: 'UNIT'
+	});
 };

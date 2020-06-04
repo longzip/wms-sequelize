@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('kiln', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -21,8 +21,18 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'NAME'
+		},
+		factoryId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'FACTORY_ID'
+		},
+		stepId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'STEP_ID'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'KILN'
 	});
 };

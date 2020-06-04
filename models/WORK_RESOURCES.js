@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('workResources', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -11,16 +11,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.UUIDV4,
 			allowNull: false,
 			field: 'GUID'
-		},
-		type: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE'
-		},
-		parentId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PARENT_ID'
 		},
 		code: {
 			type: DataTypes.STRING,
@@ -32,32 +22,27 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		type2: {
-			type: DataTypes.STRING,
+		createDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'TYPE2'
+			field: 'CREATE_DATE'
 		},
-		error: {
+		modifyBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'MODIFY_BY'
 		},
-		packageTypeGroupId: {
+		createBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
+			field: 'CREATE_BY'
 		},
-		moduleId: {
-			type: DataTypes.INTEGER,
+		modifyDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'MODIFY_DATE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'WORK_RESOURCES'
 	});
 };

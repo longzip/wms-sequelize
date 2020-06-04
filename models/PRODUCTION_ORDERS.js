@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('item', {
+	return sequelize.define('productionOrders', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -22,72 +22,62 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		length: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'LENGTH'
-		},
-		width: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'WIDTH'
-		},
-		height: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'HEIGHT'
-		},
-		typeId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'TYPE_ID'
-		},
-		unitId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'UNIT_ID'
-		},
-		imageUrl: {
+		description: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'IMAGE_URL'
+			field: 'DESCRIPTION'
+		},
+		statusId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'STATUS_ID'
+		},
+		fromDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'FROM_DATE'
+		},
+		toDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'TO_DATE'
+		},
+		createBy: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'CREATE_BY'
 		},
 		createDate: {
 			type: DataTypes.DATE,
 			allowNull: true,
 			field: 'CREATE_DATE'
 		},
-		active: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ACTIVE'
-		},
-		groupItem: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'GROUP_ITEM'
-		},
 		moduleId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			field: 'MODULE_ID'
 		},
-		volumn: {
-			type: DataTypes.FLOAT,
+		type: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'VOLUMN'
+			field: 'TYPE'
 		},
-		woodTypeId: {
-			type: DataTypes.INTEGER,
+		routingName: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'WOOD_TYPE_ID'
+			field: 'ROUTING_NAME'
 		},
 		factoryId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			field: 'FACTORY_ID'
+		},
+		productionOrdersTypeId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'PRODUCTION_ORDERS_TYPE_ID'
 		}
 	}, {
-		tableName: 'ITEM'
+		tableName: 'PRODUCTION_ORDERS'
 	});
 };

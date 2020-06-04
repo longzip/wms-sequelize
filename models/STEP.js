@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('step', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,17 +12,22 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		order: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'ORDER'
 		},
-		name: {
-			type: DataTypes.STRING,
+		verifyBy: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'NAME'
+			field: 'VERIFY_BY'
+		},
+		verifyDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'VERIFY_DATE'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'STEP'
 	});
 };

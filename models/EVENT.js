@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('event', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,17 +12,28 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		no: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'NO'
 		},
-		name: {
+		channel: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'NAME'
+			field: 'CHANNEL'
+		},
+		message: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'MESSAGE'
+		},
+		createDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			defaultValue: '(getdate())',
+			field: 'CREATE_DATE'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'EVENT'
 	});
 };

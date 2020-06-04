@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('item', {
+	return sequelize.define('vendor', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -22,72 +22,72 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		length: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'LENGTH'
-		},
-		width: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'WIDTH'
-		},
-		height: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'HEIGHT'
-		},
-		typeId: {
+		active: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'TYPE_ID'
+			field: 'ACTIVE'
 		},
-		unitId: {
+		createBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'UNIT_ID'
-		},
-		imageUrl: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'IMAGE_URL'
+			field: 'CREATE_BY'
 		},
 		createDate: {
 			type: DataTypes.DATE,
 			allowNull: true,
 			field: 'CREATE_DATE'
 		},
-		active: {
+		modifyBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ACTIVE'
+			field: 'MODIFY_BY'
 		},
-		groupItem: {
-			type: DataTypes.INTEGER,
+		modifyDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'GROUP_ITEM'
+			field: 'MODIFY_DATE'
+		},
+		address: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'ADDRESS'
 		},
 		moduleId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			field: 'MODULE_ID'
 		},
-		volumn: {
-			type: DataTypes.FLOAT,
-			allowNull: true,
-			field: 'VOLUMN'
-		},
-		woodTypeId: {
+		staffId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'WOOD_TYPE_ID'
+			field: 'STAFF_ID'
 		},
-		factoryId: {
+		isInvoice: {
+			type: DataTypes.BOOLEAN,
+			allowNull: true,
+			field: 'IS_INVOICE'
+		},
+		isCoc: {
+			type: DataTypes.BOOLEAN,
+			allowNull: true,
+			field: 'IS_COC'
+		},
+		regionId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'FACTORY_ID'
+			field: 'REGION_ID'
+		},
+		regionShippingId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'REGION_SHIPPING_ID'
+		},
+		module: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'MODULE'
 		}
 	}, {
-		tableName: 'ITEM'
+		tableName: 'VENDOR'
 	});
 };

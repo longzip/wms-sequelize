@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('item', {
+	return sequelize.define('package', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,82 +12,77 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		stepOfPalletId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'STEP_OF_PALLET_ID'
 		},
-		name: {
-			type: DataTypes.STRING,
+		sourceId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'NAME'
+			field: 'SOURCE_ID'
 		},
-		length: {
-			type: "MONEY",
+		destinationId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'LENGTH'
+			field: 'DESTINATION_ID'
 		},
-		width: {
-			type: "MONEY",
+		itemFromId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'WIDTH'
-		},
-		height: {
-			type: "MONEY",
-			allowNull: true,
-			field: 'HEIGHT'
+			field: 'ITEM_FROM_ID'
 		},
 		typeId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			field: 'TYPE_ID'
 		},
-		unitId: {
+		remediesId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'UNIT_ID'
+			field: 'REMEDIES_ID'
 		},
-		imageUrl: {
+		description: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'IMAGE_URL'
+			field: 'DESCRIPTION'
+		},
+		createBy: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'CREATE_BY'
 		},
 		createDate: {
 			type: DataTypes.DATE,
 			allowNull: true,
 			field: 'CREATE_DATE'
 		},
-		active: {
+		verifyBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ACTIVE'
+			field: 'VERIFY_BY'
 		},
-		groupItem: {
+		verifyDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'VERIFY_DATE'
+		},
+		khVerifyBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'GROUP_ITEM'
+			field: 'KH_VERIFY_BY'
 		},
-		moduleId: {
-			type: DataTypes.INTEGER,
+		khVerifyDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'MODULE_ID'
+			field: 'KH_VERIFY_DATE'
 		},
-		volumn: {
-			type: DataTypes.FLOAT,
+		po: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'VOLUMN'
-		},
-		woodTypeId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'WOOD_TYPE_ID'
-		},
-		factoryId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'FACTORY_ID'
+			field: 'PO'
 		}
 	}, {
-		tableName: 'ITEM'
+		tableName: 'PACKAGE'
 	});
 };

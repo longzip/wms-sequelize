@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('approver', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,17 +12,17 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		approvalsId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'APPROVALS_ID'
 		},
-		name: {
-			type: DataTypes.STRING,
+		accountId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'NAME'
+			field: 'ACCOUNT_ID'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'APPROVER'
 	});
 };

@@ -1,10 +1,11 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('whInputType', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
+			primaryKey: true,
 			field: 'ID'
 		},
 		guid: {
@@ -12,52 +13,32 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		type: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE'
-		},
-		parentId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PARENT_ID'
-		},
 		code: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'CODE'
+		},
+		itype: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'ITYPE'
 		},
 		name: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'NAME'
 		},
-		type2: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE2'
-		},
-		error: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ERROR'
-		},
-		packageTypeGroupId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
-		},
 		moduleId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			field: 'MODULE_ID'
 		},
-		order: {
-			type: DataTypes.INTEGER,
+		module: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'ORDER'
+			field: 'MODULE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'WH_INPUT_TYPE'
 	});
 };

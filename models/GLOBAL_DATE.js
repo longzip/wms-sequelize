@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('globalDate', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,52 +12,52 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		type: {
-			type: DataTypes.STRING,
+		date: {
+			type: DataTypes.DATEONLY,
 			allowNull: true,
-			field: 'TYPE'
-		},
-		parentId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PARENT_ID'
+			field: 'DATE'
 		},
 		code: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'CODE'
 		},
-		name: {
+		year: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'NAME'
+			field: 'YEAR'
 		},
-		type2: {
+		month: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'TYPE2'
+			field: 'MONTH'
 		},
-		error: {
-			type: DataTypes.INTEGER,
+		week: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'WEEK'
 		},
-		packageTypeGroupId: {
-			type: DataTypes.INTEGER,
+		day: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
+			field: 'DAY'
 		},
-		moduleId: {
-			type: DataTypes.INTEGER,
+		weekDay: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'MODULE_ID'
+			field: 'WEEK_DAY'
 		},
-		order: {
-			type: DataTypes.INTEGER,
+		yearMonth: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'ORDER'
+			field: 'YEAR_MONTH'
+		},
+		yearWeek: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			field: 'YEAR_WEEK'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'GLOBAL_DATE'
 	});
 };

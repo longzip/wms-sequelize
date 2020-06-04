@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('itemInPackage', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,17 +12,22 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		packageId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'PACKAGE_ID'
 		},
-		name: {
-			type: DataTypes.STRING,
+		itemId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'NAME'
+			field: 'ITEM_ID'
+		},
+		quantity: {
+			type: "MONEY",
+			allowNull: true,
+			field: 'QUANTITY'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'ITEM_IN_PACKAGE'
 	});
 };

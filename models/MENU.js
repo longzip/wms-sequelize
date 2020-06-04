@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('menu', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -11,11 +11,6 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.UUIDV4,
 			allowNull: false,
 			field: 'GUID'
-		},
-		type: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE'
 		},
 		parentId: {
 			type: DataTypes.INTEGER,
@@ -32,32 +27,17 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'NAME'
 		},
-		type2: {
+		path: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'TYPE2'
+			field: 'PATH'
 		},
-		error: {
-			type: DataTypes.INTEGER,
+		type: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'ERROR'
-		},
-		packageTypeGroupId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
-		},
-		moduleId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'TYPE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'MENU'
 	});
 };

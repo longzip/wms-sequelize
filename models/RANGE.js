@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('range', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -17,47 +17,32 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: true,
 			field: 'TYPE'
 		},
-		parentId: {
-			type: DataTypes.INTEGER,
+		height: {
+			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'PARENT_ID'
+			field: 'HEIGHT'
 		},
 		code: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			field: 'CODE'
 		},
-		name: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'NAME'
-		},
-		type2: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE2'
-		},
-		error: {
+		timeOutTarget: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'TIME_OUT_TARGET'
 		},
-		packageTypeGroupId: {
+		stepNextId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
+			field: 'STEP_NEXT_ID'
 		},
-		moduleId: {
+		factoryId: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'FACTORY_ID'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'RANGE'
 	});
 };

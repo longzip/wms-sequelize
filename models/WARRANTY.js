@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('type', {
+	return sequelize.define('warranty', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,17 +12,22 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		code: {
-			type: DataTypes.STRING,
+		projectId: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'CODE'
+			field: 'PROJECT_ID'
 		},
-		name: {
-			type: DataTypes.STRING,
+		createBy: {
+			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'NAME'
+			field: 'CREATE_BY'
+		},
+		createDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'CREATE_DATE'
 		}
 	}, {
-		tableName: 'TYPE'
+		tableName: 'WARRANTY'
 	});
 };

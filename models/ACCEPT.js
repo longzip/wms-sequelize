@@ -1,7 +1,7 @@
 /* jshint indent: 1 */
 
 module.exports = function(sequelize, DataTypes) {
-	return sequelize.define('department', {
+	return sequelize.define('accept', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
@@ -12,52 +12,47 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 			field: 'GUID'
 		},
-		type: {
+		projectId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'PROJECT_ID'
+		},
+		customerId: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			field: 'CUSTOMER_ID'
+		},
+		address: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'TYPE'
+			field: 'ADDRESS'
 		},
-		parentId: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'PARENT_ID'
-		},
-		code: {
+		categories: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			field: 'CODE'
+			field: 'CATEGORIES'
 		},
-		name: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'NAME'
-		},
-		type2: {
-			type: DataTypes.STRING,
-			allowNull: true,
-			field: 'TYPE2'
-		},
-		error: {
+		createBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'ERROR'
+			field: 'CREATE_BY'
 		},
-		packageTypeGroupId: {
+		createDate: {
+			type: DataTypes.DATE,
+			allowNull: true,
+			field: 'CREATE_DATE'
+		},
+		verifyBy: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
-			field: 'PACKAGE_TYPE_GROUP_ID'
+			field: 'VERIFY_BY'
 		},
-		moduleId: {
-			type: DataTypes.INTEGER,
+		verifyDate: {
+			type: DataTypes.DATE,
 			allowNull: true,
-			field: 'MODULE_ID'
-		},
-		order: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			field: 'ORDER'
+			field: 'VERIFY_DATE'
 		}
 	}, {
-		tableName: 'DEPARTMENT'
+		tableName: 'ACCEPT'
 	});
 };
