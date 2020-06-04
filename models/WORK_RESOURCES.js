@@ -1,14 +1,16 @@
 /* jshint indent: 1 */
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
 	return sequelize.define('workResources', {
 		id: {
 			type: DataTypes.INTEGER,
+			primaryKey: true,
 			allowNull: false,
+			primaryKey: true,
 			field: 'ID'
 		},
 		guid: {
-			type: DataTypes.UUIDV4,
+			type: DataTypes.UUID,
 			allowNull: false,
 			field: 'GUID'
 		},

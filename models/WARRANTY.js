@@ -1,14 +1,15 @@
 /* jshint indent: 1 */
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
 	return sequelize.define('warranty', {
 		id: {
 			type: DataTypes.INTEGER,
+			primaryKey: true,
 			allowNull: false,
 			field: 'ID'
 		},
 		guid: {
-			type: DataTypes.UUIDV4,
+			type: DataTypes.UUID,
 			allowNull: false,
 			field: 'GUID'
 		},

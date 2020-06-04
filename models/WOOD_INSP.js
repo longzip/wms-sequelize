@@ -9,7 +9,7 @@ module.exports = function(sequelize, DataTypes) {
 			field: 'ID'
 		},
 		guid: {
-			type: DataTypes.UUIDV4,
+			type: DataTypes.UUID,
 			allowNull: true,
 			field: 'GUID'
 		},

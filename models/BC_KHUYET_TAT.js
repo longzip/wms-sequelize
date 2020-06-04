@@ -1,10 +1,11 @@
 /* jshint indent: 1 */
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
 	return sequelize.define('bcKhuyetTat', {
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
+			primaryKey: true,
 			field: 'ID'
 		},
 		kilnBatchId: {

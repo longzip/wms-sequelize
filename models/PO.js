@@ -3,12 +3,12 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('po', {
 		id: {
-			type: DataTypes.INTEGER,
+			type: DataTypes.INTEGER,primaryKey: true,
 			allowNull: false,
-			field: 'id'
+			field: 'ID'
 		},
 		guid: {
-			type: DataTypes.UUIDV4,
+			type: DataTypes.UUID,
 			allowNull: false,
 			field: 'guid'
 		},

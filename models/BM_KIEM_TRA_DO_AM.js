@@ -3,7 +3,7 @@
 module.exports = function(sequelize, DataTypes) {
 	return sequelize.define('bmKiemTraDoAm', {
 		id: {
-			type: DataTypes.INTEGER,
+			type: DataTypes.INTEGER,primaryKey: true,
 			allowNull: false,
 			field: 'ID'
 		},

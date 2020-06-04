@@ -1,10 +1,11 @@
 /* jshint indent: 1 */
 
-module.exports = function(sequelize, DataTypes) {
+module.exports = function (sequelize, DataTypes) {
 	return sequelize.define('priceType', {
 		code: {
 			type: "NCHAR",
 			allowNull: true,
+			primaryKey: true,
 			field: 'CODE'
 		},
 		name: {
