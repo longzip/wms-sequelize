@@ -13,4 +13,5 @@ JWT_SECRET = toicotientoicotinhyeu
 
 node_modules/.bin/sequelize db:migrate:undo:all
 node_modules/.bin/sequelize db:migrate
+npx sequelize-cli model:generate --name User --attributes name:string
 npx sequelize-cli db:seed:all
