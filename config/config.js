@@ -14,5 +14,6 @@ const dbDetails = {
 
 module.exports = {
   development: dbDetails,
+  test: dbDetails,
   production: dbDetails
 }
