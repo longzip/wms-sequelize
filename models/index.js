@@ -7,6 +7,7 @@ const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.js')[env];
 const db = {};
+const data = {};
 
 let sequelize;
 if (config.use_env_variable) {
@@ -31,7 +32,10 @@ Object.keys(db).forEach(modelName => {
   }
 });
 
+data.costcenters =JSON.parse(fs.readFileSync(__dirname + '/../data/costcenters.json'));
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
+db.data = data;
 
 module.exports = db;
