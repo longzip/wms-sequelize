@@ -8,6 +8,10 @@ module.exports = {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4
       },
+      costcenter: {
+        allowNull: true,
+        type: Sequelize.UUID
+      },
       username: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -23,8 +27,8 @@ module.exports = {
       },
       email: {
         type: Sequelize.STRING,
-        allowNull: false,
-        unique: true
+        allowNull: true,
+        unique: false
       },
       role: {
         type: Sequelize.ENUM('ADMIN', 'USER'),
