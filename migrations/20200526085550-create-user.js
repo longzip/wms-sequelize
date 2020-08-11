@@ -8,7 +8,11 @@ module.exports = {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4
       },
-      costcenter: {
+      userId: {
+        allowNull: true,
+        type: Sequelize.UUID
+      },
+      costcenterId: {
         allowNull: true,
         type: Sequelize.UUID
       },

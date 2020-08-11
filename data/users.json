@@ -1,7 +1,7 @@
 [
   {
     "id": "4f499bd0-38d0-4809-9051-edffe21b91bc",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Nhàn",
     "username": "11T0062",
@@ -13,7 +13,7 @@
   },
   {
     "id": "47d70157-d1d1-4881-9969-182e808b9741",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thanh Bình",
     "username": "09T423",
@@ -25,7 +25,7 @@
   },
   {
     "id": "2d36546e-b1b4-47d9-875d-e5e0857f0c0b",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lê Văn Đông",
     "username": "04T045",
@@ -37,7 +37,7 @@
   },
   {
     "id": "0d34f080-4d55-4ab8-bf8d-da48dfdbac78",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lê Minh Sơn",
     "username": "10T129",
@@ -49,7 +49,7 @@
   },
   {
     "id": "634519e8-0809-4e9d-a585-31f4682f1061",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Ngô Thị Thanh Xuân",
     "username": "12T1187",
@@ -61,7 +61,7 @@
   },
   {
     "id": "cea71ce2-a2c6-44fd-a3fc-857920455ea3",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Trung",
     "username": "12T0260",
@@ -73,7 +73,7 @@
   },
   {
     "id": "5f7fc686-170f-4d4c-9612-c47275cf7776",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thu Huyền",
     "username": "11T1508",
@@ -85,7 +85,7 @@
   },
   {
     "id": "1ddf9b05-e64a-4a37-80cb-2e98476eb385",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Phước",
     "username": "06T004",
@@ -97,7 +97,7 @@
   },
   {
     "id": "5b9907de-151f-4d65-bff6-22948cbcfce4",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Công Thanh",
     "username": "07T125",
@@ -109,7 +109,7 @@
   },
   {
     "id": "d1391f48-7dee-4cd0-add3-6a07030b5cc0",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lê Trung Kiên",
     "username": "11T1143",
@@ -121,7 +121,7 @@
   },
   {
     "id": "8b54d2b2-d2b7-4c0d-9791-168154416a04",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Nam",
     "username": "12T0858",
@@ -133,7 +133,7 @@
   },
   {
     "id": "09f1cf42-1c4b-4fc3-9dea-ec3f73c77b81",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Cấn Đặng Phương",
     "username": "12T0799",
@@ -145,7 +145,7 @@
   },
   {
     "id": "1d756f78-d0e7-41a4-b542-1d260aab18e4",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Vũ Văn Tín",
     "username": "14T0767",
@@ -157,7 +157,7 @@
   },
   {
     "id": "e38cd24a-ef0d-4307-9705-cedc53aab4c8",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Văn Khánh",
     "username": "12T0169",
@@ -169,7 +169,7 @@
   },
   {
     "id": "a00e4f93-5e2b-42e3-b296-71c0fe6bb8a4",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lưu Thế Quyền",
     "username": "06T028",
@@ -181,7 +181,7 @@
   },
   {
     "id": "d14bbebd-1e04-4694-8509-a4a76fa5b2b6",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Dương Văn Thưởng",
     "username": "11T1064",
@@ -193,7 +193,7 @@
   },
   {
     "id": "43ad8bd3-80e5-4070-b356-8519bf57e1f3",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Sáu",
     "username": "08T044",
@@ -205,7 +205,7 @@
   },
   {
     "id": "1d59f0b3-1da0-4a19-ba76-4ac0fe8beaac",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Phạm Thị Bền",
     "username": "09T471",
@@ -217,7 +217,7 @@
   },
   {
     "id": "6e6ebb4e-d1fb-4641-9756-c6e2b83780f0",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Mạnh Cường",
     "username": "06T031",
@@ -229,7 +229,7 @@
   },
   {
     "id": "82805d7f-920f-4721-9795-b2d3d1beda3b",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Đỗ Hữu Tuấn",
     "username": "12T0636",
@@ -241,7 +241,7 @@
   },
   {
     "id": "a191f4e4-e115-48f9-a50c-78c01ebe721f",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Đỗ Văn Dũng",
     "username": "04T001",
@@ -253,7 +253,7 @@
   },
   {
     "id": "280067dd-7a80-4fe8-a12b-dd2e82670848",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Đỗ Mạnh Dũng",
     "username": "13T0744",
@@ -265,7 +265,7 @@
   },
   {
     "id": "267d42d8-6d35-4549-9cd9-b28b706c8c88",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Việt Hùng",
     "username": "14T0016",
@@ -277,7 +277,7 @@
   },
   {
     "id": "58985a92-a2bf-4347-bae3-0acf2ea13170",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Hạnh",
     "username": "07T012",
@@ -289,7 +289,7 @@
   },
   {
     "id": "c4bc8ae6-629b-492b-bb04-313acbd242e0",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Việt Thanh",
     "username": "05T068",
@@ -301,7 +301,7 @@
   },
   {
     "id": "ae47bcda-811f-445f-9440-1c4e76bf4765",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Văn Chức",
     "username": "13T1020",
@@ -313,7 +313,7 @@
   },
   {
     "id": "52831587-333c-42d4-9f31-a280ee348c6c",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Hồng",
     "username": "10T369",
@@ -325,7 +325,7 @@
   },
   {
     "id": "dd551ca8-3e4e-4aa0-ab3c-918e2dced891",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Phượng",
     "username": "11T1001",
@@ -337,7 +337,7 @@
   },
   {
     "id": "27977f8f-b564-42cb-a969-b793e4613f40",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Đỗ Thị Lan",
     "username": "09T559",
@@ -349,7 +349,7 @@
   },
   {
     "id": "45729407-417b-45ad-aa32-eb152f771fa9",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Nam",
     "username": "10T010",
@@ -361,7 +361,7 @@
   },
   {
     "id": "218a67c7-8963-43a6-9f8f-0326303ff029",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trương Văn Thỏa",
     "username": "14T1004",
@@ -373,7 +373,7 @@
   },
   {
     "id": "7daaa9bd-5765-4382-8ca3-589fa3afbd25",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Tiến Đạt",
     "username": "17T0729",
@@ -385,7 +385,7 @@
   },
   {
     "id": "22db055d-9afc-4cca-b9de-045b06482c79",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Đức",
     "username": "15T2037",
@@ -397,7 +397,7 @@
   },
   {
     "id": "69bc198d-7765-4f17-b397-f57eb1b45d31",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lưu Thanh Đạo",
     "username": "13T0551",
@@ -409,7 +409,7 @@
   },
   {
     "id": "5cff9c19-0ee4-4872-bff2-0fab11288ca4",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Xuân Trường",
     "username": "15T0962",
@@ -421,7 +421,7 @@
   },
   {
     "id": "ab514f0e-0699-46f7-9188-7354ca6d81bd",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Sự",
     "username": "14T1721",
@@ -433,7 +433,7 @@
   },
   {
     "id": "fea28733-4986-4cd8-b8b1-7f980153bead",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lưu Thế Lượng",
     "username": "12T0591",
@@ -445,7 +445,7 @@
   },
   {
     "id": "ed6f944f-4761-4ce7-a822-497b8eb86a40",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Vũ Thị Hằng",
     "username": "09T629",
@@ -457,7 +457,7 @@
   },
   {
     "id": "f8fd934c-cfe2-4fa4-8c18-0789fcf062bc",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hoàng Văn Cường",
     "username": "15T1539",
@@ -469,7 +469,7 @@
   },
   {
     "id": "b0296e69-8bf9-4894-9799-4d73cbee5cad",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Văn Tuấn",
     "username": "14T0865",
@@ -481,7 +481,7 @@
   },
   {
     "id": "b0b10bac-e1a1-4770-a5d9-a79701a84427",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Đỗ Văn Giỏi",
     "username": "19T0385",
@@ -493,7 +493,7 @@
   },
   {
     "id": "2c3156fc-1fae-48b2-975c-bb8b38ebc4d8",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Phạm Văn Thuận",
     "username": "14T0556",
@@ -505,7 +505,7 @@
   },
   {
     "id": "0dfb0d06-4ac9-414b-b47b-c7924b4373db",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Sướng",
     "username": "05T027",
@@ -517,7 +517,7 @@
   },
   {
     "id": "486895b6-bdb5-424d-891a-0a977a65f0fb",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Hồng Quân",
     "username": "04T055",
@@ -529,7 +529,7 @@
   },
   {
     "id": "968c1911-db77-48f6-abf1-46611f63b356",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hà Văn Ngà",
     "username": "13T0806",
@@ -541,7 +541,7 @@
   },
   {
     "id": "e9e09eb0-ec05-4463-b2f2-9f4740c50612",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Quách Văn Tuyên",
     "username": "16T1533",
@@ -553,7 +553,7 @@
   },
   {
     "id": "a73c7440-3824-47fc-b4a8-15a33e5a61e2",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hoàng Quốc Việt",
     "username": "12T0833",
@@ -565,7 +565,7 @@
   },
   {
     "id": "23501a0a-b9f9-404d-90c2-5d6c0febc568",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hoàng Thị Thời",
     "username": "09T421",
@@ -577,7 +577,7 @@
   },
   {
     "id": "a23c0073-53a0-41ba-809f-1eabf2d4b6bb",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Ngô Văn Khuyến",
     "username": "13T1038",
@@ -589,7 +589,7 @@
   },
   {
     "id": "6ed2c3dc-1331-440e-a613-67ac749d64ae",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Tuyên",
     "username": "18T1375",
@@ -601,7 +601,7 @@
   },
   {
     "id": "284c7d0b-1d5b-4999-9175-89c3f28b4428",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "phan công anh",
     "username": "13T0875",
@@ -613,7 +613,7 @@
   },
   {
     "id": "f412c9fc-d27c-4189-abdc-fc62519a0caa",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Tạ Văn Nguyên",
     "username": "14T0759",
@@ -625,7 +625,7 @@
   },
   {
     "id": "8cc71d4f-97e3-490b-9889-a3bd3f6e28c1",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Tự",
     "username": "15T0237",
@@ -637,7 +637,7 @@
   },
   {
     "id": "d7ca38ff-cd80-4d92-a763-7672140ef2b1",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Duy Hùng",
     "username": "03T006",
@@ -649,7 +649,7 @@
   },
   {
     "id": "545bddd8-8f9c-4874-919a-787830643528",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Duy Đức  Văn",
     "username": "19T0463",
@@ -661,7 +661,7 @@
   },
   {
     "id": "97156ff8-1b3b-425f-9118-d078788d0b74",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Đào",
     "username": "12T0021",
@@ -673,7 +673,7 @@
   },
   {
     "id": "71c78163-83b0-40c0-a211-17d287cd3c77",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Phạm Thị Hòe",
     "username": "09T332",
@@ -685,7 +685,7 @@
   },
   {
     "id": "35a50473-c276-48d6-b57a-cca650272323",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Bảy",
     "username": "14T0087",
@@ -697,7 +697,7 @@
   },
   {
     "id": "eb9e5665-c1d7-438d-af85-56ce40cfbc49",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Hiền",
     "username": "07T006",
@@ -709,7 +709,7 @@
   },
   {
     "id": "a2e82f0a-af33-4b35-a625-c241792a30b9",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "sa",
     "username": "sa",
@@ -721,7 +721,7 @@
   },
   {
     "id": "bc1a2222-670e-4b2b-88b8-83edd0d7c0ac",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Hải Anh",
     "username": "07T029",
@@ -733,7 +733,7 @@
   },
   {
     "id": "6456e789-b6a6-440f-9e95-93002ac57579",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Tính",
     "username": "12T0867",
@@ -745,7 +745,7 @@
   },
   {
     "id": "2868892f-1e79-4bc1-9470-ab2e7d179c60",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Tiến Nghị",
     "username": "12T1164",
@@ -757,7 +757,7 @@
   },
   {
     "id": "a1638297-566c-46aa-b16d-ab0b97c3a300",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Vũ Chí Công",
     "username": "14T1678",
@@ -769,7 +769,7 @@
   },
   {
     "id": "79ddb34c-2167-425a-9e5d-6aa554d88d01",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Kiểm",
     "username": "09T600",
@@ -781,7 +781,7 @@
   },
   {
     "id": "507989e5-008f-4c5e-9dfc-067c7aa62111",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Hảo",
     "username": "11T0568",
@@ -793,7 +793,7 @@
   },
   {
     "id": "536adb30-177e-4ff9-8295-3d007214ec11",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hoàng Thị Thanh Huyền",
     "username": "20T0595",
@@ -805,7 +805,7 @@
   },
   {
     "id": "3f161c22-27c9-4f99-a987-8039bfb77127",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Hải",
     "username": "20T0650",
@@ -817,7 +817,7 @@
   },
   {
     "id": "4372b512-84bf-4b7a-9c9a-c7a825fa5b8b",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Kiên",
     "username": "12T0230",
@@ -829,7 +829,7 @@
   },
   {
     "id": "43e746d8-0ada-4c9a-962e-5b13231d5f11",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trương Thị Hồng",
     "username": "04T047",
@@ -841,7 +841,7 @@
   },
   {
     "id": "16fdfc8e-d12c-455d-98dc-df7987070de7",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Xuân Đức",
     "username": "12T0193",
@@ -853,7 +853,7 @@
   },
   {
     "id": "d4a91dba-dbb8-40fb-a7d6-ddd74146d565",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Bùi Thị Nhì",
     "username": "07T049",
@@ -865,7 +865,7 @@
   },
   {
     "id": "febf3c4f-2661-44ee-8d96-4d3b1bfc7189",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lê Văn Khương",
     "username": "03T015",
@@ -877,7 +877,7 @@
   },
   {
     "id": "c3a294fd-5599-41e8-9934-5b52083a3294",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Ngô Quý Quỳnh",
     "username": "20T0835",
@@ -889,7 +889,7 @@
   },
   {
     "id": "682f3a97-481c-472f-befa-d5c059e0207e",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trương Thi Thục",
     "username": "11T0914",
@@ -901,7 +901,7 @@
   },
   {
     "id": "1778a0ed-68ab-483d-8ca6-9dc822848ace",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Hòa",
     "username": "11T0505",
@@ -913,7 +913,7 @@
   },
   {
     "id": "f43fa947-fa6a-4e62-b037-8d84b1ec9681",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Dương Hà Bắc",
     "username": "11T0593",
@@ -925,7 +925,7 @@
   },
   {
     "id": "1b3be619-97ae-432a-ac40-4153bd4efab3",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Lập",
     "username": "09T691",
@@ -937,7 +937,7 @@
   },
   {
     "id": "a64c655a-4e46-475f-a0f5-943e5f6818ee",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Thắng",
     "username": "06T012",
@@ -949,7 +949,7 @@
   },
   {
     "id": "e1034e9c-a1cf-46cf-9bc6-9238df4fa9fe",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Hưởng",
     "username": "04T013",
@@ -961,7 +961,7 @@
   },
   {
     "id": "f7050c64-5cfb-40dd-af1b-b6a9c61cd810",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Việt Thu",
     "username": "07T024",
@@ -973,7 +973,7 @@
   },
   {
     "id": "94b83f69-015e-4277-9cb4-bdc82fc82dc9",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Bùi Văn Tuấn",
     "username": "13T0470",
@@ -985,7 +985,7 @@
   },
   {
     "id": "739f22f6-172b-4cf1-a130-280dd3cb08a4",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lê Văn Tân",
     "username": "13T0701",
@@ -997,7 +997,7 @@
   },
   {
     "id": "4bad5d7f-3f68-4df7-a699-0af4000a8fe0",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Hà Văn Tuấn",
     "username": "20T0692",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "e3e2a164-1afb-4716-bbbb-3163bb6e8430",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Vân",
     "username": "14T1751",
@@ -1021,7 +1021,7 @@
   },
   {
     "id": "a36283e1-cae1-4278-a125-a1c884d15831",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Thu",
     "username": "14T1022",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "cebe6837-2368-470b-af01-5e46faf479d5",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Phạm Thị Thanh",
     "username": "10T500",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "271acd8b-26b7-4d1e-b7a1-74e6114be830",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Hảo",
     "username": "19T0499",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "3b268d09-0dab-4e2a-a9fc-afe8f6762447",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Trần Văn Thái",
     "username": "13T0523",
@@ -1069,7 +1069,7 @@
   },
   {
     "id": "3fa81285-b97c-4b10-9c60-8b4e253fae92",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lưu Văn Tiến",
     "username": "05T006",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "210bbd06-fecf-4f15-bac1-a1b0cbc67664",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Lưu Thanh Hương",
     "username": "11T1249",
@@ -1093,7 +1093,7 @@
   },
   {
     "id": "ee865fa6-6f22-4f1e-ad02-fce37b82c729",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Văn Mậu",
     "username": "14T0321",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "02cb73e8-e41a-40a9-ae9a-7e89910c9018",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thế Cường",
     "username": "18T0975",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "fcc3e097-b932-471d-a364-aaf948ae317b",
-    "costcenter": "063e6fd2-add3-464d-bf09-627289f7de68",
+    "costcenterId": "063e6fd2-add3-464d-bf09-627289f7de68",
     "email": null,
     "name": "Nguyễn Thị Lan",
     "username": "10T554",

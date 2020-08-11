@@ -12,7 +12,11 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.UUID,
         defaultValue: DataTypes.UUIDV4,
       },
-      costcenter: {
+      userId: {
+        allowNull: true,
+        type: DataTypes.UUID
+      },
+      costcenterId: {
         allowNull: true,
         type: DataTypes.UUID
       },

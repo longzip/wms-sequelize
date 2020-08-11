@@ -11,7 +11,11 @@ DB_DIALECT = mssql
 DB_PORT = 1300
 JWT_SECRET = toicotientoicotinhyeu
 
-node_modules/.bin/sequelize db:migrate:undo:all
-node_modules/.bin/sequelize db:migrate
-npx sequelize-cli model:generate --name User --attributes name:string
+npx sequelize db:migrate:undo:all
+npx sequelize db:migrate
 npx sequelize-cli db:seed:all
+
+
+npx sequelize-cli model:generate --name Order --attributes name:string
+npx sequelize-cli model:generate --name OrderLine --attributes name:string
+
