@@ -43,6 +43,9 @@ module.exports = (sequelize, DataTypes) => {
     name: {
       type: DataTypes.STRING
     },
+    quantity: {
+      type: DataTypes.FLOAT
+    },
     title: {
       type: DataTypes.STRING
     },

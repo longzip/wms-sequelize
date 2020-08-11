@@ -31,6 +31,9 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
+      quantity: {
+        type: Sequelize.FLOAT
+      },
       title: {
         type: Sequelize.STRING
       },
