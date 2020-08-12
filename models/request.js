@@ -14,7 +14,38 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Request.init({
-    name: DataTypes.STRING
+    id: {
+      allowNull: false,
+      primaryKey: true,
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4
+    },
+    userId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    costcenterId: {
+      type: DataTypes.UUID
+    },
+    companyId: {
+      type: DataTypes.UUID
+    },
+    title: {
+      type: DataTypes.STRING
+    },
+    completed: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
+    createdAt: {
+      allowNull: false,
+      type: DataTypes.DATE
+    },
+    updatedAt: {
+      allowNull: false,
+      type: DataTypes.DATE
+    }
   }, {
     sequelize,
     modelName: 'Request',
