@@ -24,6 +24,13 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.UUID,
     },
+    orderableId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    orderableType: {
+      type: DataTypes.STRING
+    },
     costcenterId: {
       type: DataTypes.UUID
     },
@@ -31,6 +38,9 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.UUID
     },
     title: {
+      type: DataTypes.STRING
+    },
+    status: {
       type: DataTypes.STRING
     },
     completed: {

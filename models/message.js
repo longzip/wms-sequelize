@@ -3,26 +3,17 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Order extends Model {
+  class Message extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Order.hasMany(models.OrderLine, {
-        foreignKey: {
-          name: 'orderId'
-        }
-      })
-      Order.hasMany(models.Request, {
-        foreignKey: {
-          name: 'orderableId'
-        }
-      })
+      // define association here
     }
   };
-  Order.init({
+  Message.init({
     id: {
       allowNull: false,
       primaryKey: true,
@@ -33,33 +24,15 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.UUID,
     },
-    number: {
-      type: DataTypes.INTEGER,
-      autoIncrement: true,
+    orderableId: {
       allowNull: false,
+      type: DataTypes.UUID,
     },
-    costcenterId: {
-      type: DataTypes.UUID
-    },
-    companyId: {
-      type: DataTypes.UUID
-    },
-    code: {
+    orderableType: {
       type: DataTypes.STRING
     },
-    name: {
+    text: {
       type: DataTypes.STRING
-    },
-    note: {
-      type: DataTypes.TEXT
-    },
-    status: {
-      type: DataTypes.STRING
-    },
-    completed: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: false
     },
     createdAt: {
       allowNull: false,
@@ -71,8 +44,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    paranoid: true,
-    modelName: 'Order',
+    modelName: 'Message',
   });
-  return Order;
+  return Message;
 };

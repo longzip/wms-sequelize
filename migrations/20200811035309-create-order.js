@@ -8,6 +8,11 @@ module.exports = {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4
       },
+      number: {
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
+        allowNull: false,
+      },
       userId: {
         allowNull: false,
         type: Sequelize.UUID,
@@ -29,6 +34,11 @@ module.exports = {
       },
       status: {
         type: Sequelize.STRING
+      },
+      completed: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false
       },
       createdAt: {
         allowNull: false,
