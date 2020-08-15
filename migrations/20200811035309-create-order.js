@@ -20,6 +20,9 @@ module.exports = {
       costcenterId: {
         type: Sequelize.UUID
       },
+      costcenterName: {
+        type: Sequelize.STRING
+      },
       companyId: {
         type: Sequelize.UUID
       },
@@ -33,6 +36,9 @@ module.exports = {
         type: Sequelize.TEXT
       },
       status: {
+        type: Sequelize.STRING
+      },
+      signature: {
         type: Sequelize.STRING
       },
       completed: {

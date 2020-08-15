@@ -20,6 +20,11 @@ module.exports = (sequelize, DataTypes) => {
           name: 'orderableId'
         }
       })
+      Order.hasMany(models.Message, {
+        foreignKey: {
+          name: 'orderableId'
+        }
+      })
     }
   };
   Order.init({
@@ -41,6 +46,9 @@ module.exports = (sequelize, DataTypes) => {
     costcenterId: {
       type: DataTypes.UUID
     },
+    costcenterName: {
+      type: DataTypes.STRING
+    },
     companyId: {
       type: DataTypes.UUID
     },
@@ -54,6 +62,9 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.TEXT
     },
     status: {
+      type: DataTypes.STRING
+    },
+    signature: {
       type: DataTypes.STRING
     },
     completed: {

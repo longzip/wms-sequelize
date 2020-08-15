@@ -40,6 +40,9 @@ module.exports = {
       note: {
         type: Sequelize.TEXT
       },
+      origin: {
+        type: Sequelize.TEXT
+      },
       status: {
         type: Sequelize.STRING
       },

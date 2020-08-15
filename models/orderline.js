@@ -52,6 +52,9 @@ module.exports = (sequelize, DataTypes) => {
     note: {
       type: DataTypes.TEXT
     },
+    origin: {
+      type: DataTypes.TEXT
+    },
     status: {
       type: DataTypes.STRING
     },

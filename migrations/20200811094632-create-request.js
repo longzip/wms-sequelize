@@ -28,8 +28,19 @@ module.exports = {
       title: {
         type: Sequelize.STRING
       },
+      position: {
+        type: Sequelize.STRING
+      },
+      name: {
+        type: Sequelize.STRING
+      },
       status: {
         type: Sequelize.STRING
+      },
+      showMessages: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: true
       },
       completed: {
         type: Sequelize.BOOLEAN,
