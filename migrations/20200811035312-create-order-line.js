@@ -20,7 +20,7 @@ module.exports = {
         type: Sequelize.UUID
       },
       unitId: {
-        type: Sequelize.UUID
+        type: Sequelize.STRING
       },
       companyId: {
         type: Sequelize.UUID

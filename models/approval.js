@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Request extends Model {
+  class Approval extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Request.init({
+  Approval.init({
     id: {
       allowNull: false,
       primaryKey: true,
@@ -24,49 +24,17 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.UUID,
     },
-    nextId: {
-      allowNull: true,
-      type: DataTypes.UUID,
-    },
-    orderableId: {
-      allowNull: false,
-      type: DataTypes.UUID,
-    },
-    orderableType: {
-      type: DataTypes.STRING
-    },
     costcenterId: {
       type: DataTypes.UUID
+    },
+    costcenterName: {
+      type: DataTypes.STRING
     },
     companyId: {
       type: DataTypes.UUID
     },
-    title: {
-      type: DataTypes.STRING
-    },
-    position: {
-      type: DataTypes.STRING
-    },
     name: {
       type: DataTypes.STRING
-    },
-    showMessages: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: true
-    },
-    isDisable: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: true
-    },
-    status: {
-      type: DataTypes.STRING
-    },
-    completed: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: false
     },
     createdAt: {
       allowNull: false,
@@ -78,7 +46,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'Request',
+    modelName: 'Approval',
   });
-  return Request;
+  return Approval;
 };

@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Request extends Model {
+  class ApprovalStep extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,60 +13,46 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Request.init({
+  ApprovalStep.init({
     id: {
       allowNull: false,
       primaryKey: true,
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4
     },
-    userId: {
+    sequence: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
       allowNull: false,
-      type: DataTypes.UUID,
-    },
-    nextId: {
-      allowNull: true,
-      type: DataTypes.UUID,
-    },
-    orderableId: {
-      allowNull: false,
-      type: DataTypes.UUID,
-    },
-    orderableType: {
-      type: DataTypes.STRING
-    },
-    costcenterId: {
-      type: DataTypes.UUID
-    },
-    companyId: {
-      type: DataTypes.UUID
-    },
-    title: {
-      type: DataTypes.STRING
-    },
-    position: {
-      type: DataTypes.STRING
-    },
-    name: {
-      type: DataTypes.STRING
-    },
-    showMessages: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: true
     },
     isDisable: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: true
     },
-    status: {
+    userId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    approvalableId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    approvalableType: {
       type: DataTypes.STRING
     },
-    completed: {
+    name: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    position: {
+      allowNull: false,
+      type: DataTypes.STRING
+    },
+    showMessages: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
-      defaultValue: false
+      defaultValue: true
     },
     createdAt: {
       allowNull: false,
@@ -78,7 +64,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'Request',
+    modelName: 'ApprovalStep',
   });
-  return Request;
+  return ApprovalStep;
 };

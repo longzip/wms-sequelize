@@ -32,7 +32,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.UUID
     },
     unitId: {
-      type: DataTypes.UUID
+      type: DataTypes.STRING
     },
     companyId: {
       type: DataTypes.UUID
