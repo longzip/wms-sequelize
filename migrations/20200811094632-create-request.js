@@ -12,6 +12,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.UUID,
       },
+      nextId: {
+        allowNull: false,
+        type: Sequelize.UUID,
+      },
       orderableId: {
         allowNull: false,
         type: Sequelize.UUID,

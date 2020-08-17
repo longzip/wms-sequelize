@@ -24,6 +24,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.UUID,
     },
+    nextId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
     orderableId: {
       allowNull: false,
       type: DataTypes.UUID,
