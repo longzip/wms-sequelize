@@ -15,5 +15,5 @@ npx sequelize db:migrate:undo:all
 npx sequelize db:migrate
 npx sequelize-cli db:seed:all
 
-npx sequelize-cli model:generate --name Message --attributes name:string
+npx sequelize-cli model:generate --name Approval --attributes name:string
 npx sequelize-cli model:generate --name OrderLine --attributes name:string

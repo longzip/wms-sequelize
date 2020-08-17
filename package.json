@@ -1,6 +1,6 @@
 {
   "name": "wms-sequelize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Woodsland ORM Database",
   "main": "index.js",
   "scripts": {
