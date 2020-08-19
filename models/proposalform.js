@@ -3,79 +3,57 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Order extends Model {
+  class ProposalForm extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // Order.hasMany(models.OrderLine, {
-      //   foreignKey: {
-      //     name: 'orderId'
-      //   }
-      // })
-      Order.hasMany(models.Request, {
-        foreignKey: {
-          name: 'orderableId'
-        }
-      })
-      Order.hasMany(models.OrderMeta, {
-        foreignKey: {
-          name: 'orderId'
-        }
-      })
-      Order.hasMany(models.Message, {
-        foreignKey: {
-          name: 'orderableId'
-        }
-      })
+      // define association here
     }
   };
-  Order.init({
+  ProposalForm.init({
     id: {
       allowNull: false,
       primaryKey: true,
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4
     },
-    userId: {
-      allowNull: false,
-      type: DataTypes.UUID,
-    },
     number: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       allowNull: false,
     },
+    userId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    approvalableId: {
+      allowNull: false,
+      type: DataTypes.UUID,
+    },
+    approvalableType: {
+      type: DataTypes.STRING
+    },
     costcenterId: {
       type: DataTypes.UUID
-    },
-    approvalId: {
-      type: DataTypes.UUID
-    },
-    costcenterName: {
-      type: DataTypes.STRING
     },
     companyId: {
       type: DataTypes.UUID
     },
-    code: {
+    title: {
       type: DataTypes.STRING
-    },
-    name: {
-      type: DataTypes.STRING
-    },
-    note: {
-      type: DataTypes.TEXT
     },
     status: {
       type: DataTypes.STRING
     },
-    signature: {
-      type: DataTypes.STRING
+    showMessages: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: true
     },
-    completed: {
+    isDisable: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false
@@ -90,8 +68,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    paranoid: true,
-    modelName: 'Order',
+    modelName: 'ProposalForm',
   });
-  return Order;
+  return ProposalForm;
 };

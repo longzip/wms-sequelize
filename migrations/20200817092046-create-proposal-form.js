@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Orders', {
+    await queryInterface.createTable('ProposalForms', {
       id: {
         allowNull: false,
         primaryKey: true,
@@ -17,36 +17,31 @@ module.exports = {
         allowNull: false,
         type: Sequelize.UUID,
       },
-      costcenterId: {
+      approvalableId: {
         allowNull: false,
-        type: Sequelize.UUID
+        type: Sequelize.UUID,
       },
-      approvalId: {
-        allowNull: false,
-        type: Sequelize.UUID
-      },
-      costcenterName: {
+      approvalableType: {
         type: Sequelize.STRING
+      },
+      costcenterId: {
+        type: Sequelize.UUID
       },
       companyId: {
         type: Sequelize.UUID
       },
-      code: {
+      title: {
         type: Sequelize.STRING
-      },
-      name: {
-        type: Sequelize.STRING
-      },
-      note: {
-        type: Sequelize.TEXT
       },
       status: {
         type: Sequelize.STRING
       },
-      signature: {
-        type: Sequelize.STRING
+      showMessages: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: true
       },
-      completed: {
+      isDisable: {
         type: Sequelize.BOOLEAN,
         allowNull: false,
         defaultValue: false
@@ -58,14 +53,10 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
-      },
-      deletedAt: {
-        allowNull: true,
-        type: Sequelize.DATE
       }
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Orders');
+    await queryInterface.dropTable('ProposalForms');
   }
 };

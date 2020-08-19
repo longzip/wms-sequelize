@@ -15,5 +15,9 @@ npx sequelize db:migrate:undo:all
 npx sequelize db:migrate
 npx sequelize-cli db:seed:all
 
-npx sequelize-cli model:generate --name Approval --attributes name:string
-npx sequelize-cli model:generate --name OrderLine --attributes name:string
+npx sequelize-cli db:seed:undo
+
+npx sequelize-cli model:generate --name ProposalForm --attributes name:string
+npx sequelize-cli model:generate --name OrderMeta --attributes name:string
+npx sequelize-cli seed:generate --name approval-step-seeder
+
