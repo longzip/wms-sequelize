@@ -19,5 +19,4 @@ npx sequelize-cli db:seed:undo
 
 npx sequelize-cli model:generate --name ProposalForm --attributes name:string
 npx sequelize-cli model:generate --name OrderMeta --attributes name:string
-npx sequelize-cli seed:generate --name approval-step-seeder
-
+npx sequelize-cli seed:generate --name order-meta-seeder
